@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bootstrap Project VB</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+	<link href="css/mystyle.css" rel="stylesheet" type="text/css"/>
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet"> 
+</head>
+<body>
+<!--navigation-->
+	<div class="navbar navbar-inverse navbar-static-top">
+		<div class="container">
+			<a href="index.html" class="navbar-brand">Vicki Bannister / About</a>
+			<!--collapsale menu trigger-->
+			<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<div class="collapse navbar-collapse navHeaderCollapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="services.html">Services</a></li>
+					<!--dropdown-->
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="webdev.html">Web Development</a></li>
+                            <li><a href="apps.html">App Production</a></li>
+                            <li><a href="photo.html">Social Media</a></li>
+                        </ul>
+                    </li>
+					<li><a href="#contact" data-toggle="modal">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	
+<!--about content-->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-9">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <div class="panel-header">
+                         <h3>About Us.</h3>
+                        </div>
+                        <img src="assets/Dad.png" class="featuredImg" width="40%"/> <img style= "margin: 70px"/> <img align="left"/>  <img src="assets/dave.png" class="featuredImg" width="40%"/> <img style="margin:0px 80px"/>
+                        <p style="font-family:Dosis">We are an up and coming company who specializes in Website Production, App Production and also Social Media. We are based in Lichfield and work from home at the moment, although we do plan on getting a office in the future. We are a family business, I am in college studying ICT and my dad has been in IT for many years. </p>
+
+                        
+                    </div>
+                    
+                </div>
+       <!--Social Media Start-->
+            <div class="row">
+                <div class="col-lg-10 pull-center">
+                    <!--Twitter Image Link-->
+                    <div class="col-md-2">
+                        <a href="https://twitter.com/VBannister98?lang=en" target="_blank">
+				           <img src="assets/twitter.png" alt="">
+                        </a>
+                    </div>
+                    <!--Instagram Image Link-->
+                    <div class="col-md-2">
+                        <a href="https://www.instagram.com/" target="_blank">
+                            <img src="assets/instagram.png" alt="">
+                        </a>
+                    </div>
+                    <!--Github Image Link-->
+                    <div class="col-md-2">
+                        <a href="https://github.com" target="_blank">
+                            <img src="assets/github.png" alt="">
+                        </a>
+                    </div>
+                    <!--Linkedin Image Link-->
+                    <div class="col-md-2">
+                        <a href="https://uk.linkedin.com/" target="_blank">
+                            <img src="assets/linkedin.png" alt="">
+                        </a>
+                    </div>
+                    <!--Pinterest Image Link-->
+                    <div class="col-md-2">
+                        <a href="https://uk.pinterest.com/s1511835/" target="_blank">
+                            <img src="assets/pinterest.png" alt="">
+                        </a>
+                    </div>
+                    <!--Google Image Link-->
+                    <div class="col-md-2">
+                        <a href="https://plus.google.com/u/0/103500226591635474715" target="_blank">
+                            <img src="assets/google.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+    <!--Social Media End-->
+            </div>
+            
+            <div class="col-lg-3">
+                <div class="list-group">
+                    <a href="webdev.html" class="list-group-item">
+                        <h4 class="list-group-header"><i class="fa fa-desktop" aria-hidden="true"></i> Web Development</h4>
+                        <p></p>
+                    </a>
+                    <a href="apps.html" class="list-group-item">
+                        <h4 class="list-group-header"><i class="fa fa-mobile" aria-hidden="true"></i> App Production</h4>
+                        <p></p>
+                    </a>
+                    <a href="SocialMedia.html" class="list-group-item">
+                        <h4 class="list-group-header"><i class="fa fa-camera-retro" aria-hidden="true"></i> Social Media</h4>
+                        <p></p>
+                           
+                    </a>
+                   
+                </div>
+                 <p style="text-align:center"/> <video width="260" height="240" controls>
+               <source src="assets/Aboutus.mp4" type="video/mp4"> </video>
+            </div>
+        </div>
+    </div>
+	
+    
+<!--footer-->
+	<div class="navbar navbar-default navbar-fixed-bottom">
+		<div class="container">
+			<p class="navbar-text">Site Built by Vicki Bannister </p>
+			<a class="navbar-btn btn btn-success pull-right" href="#contact" data-toggle="modal">Contact Us</a>
+		</div>
+	</div>
+	
+<!--modal-->
+	<div class="modal fade" id="contact" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+			<!--Modal Form Start-->
+			<form class="form-horizontal">
+				<div class="modal-header"><!--HEADER-->
+					<h3>Contact Us</h3>
+				</div>
+				
+				<div class="modal-body"><!--BODY-->
+					<div class="form-group"><!--name-->
+						<label for="contact-name" class="col-lg-2 control-label">Name</label>
+						<div class="col-lg-10">
+							<input type="text" class="form-control" id="contact-name" placeholder="Full Name">
+						</div>
+					</div>
+					<div class="form-group"><!--email-->
+						<label for="contact-email" class="col-lg-2 control-label">Email</label>
+						<div class="col-lg-10">
+							<input type="email" class="form-control" id="contact-email" placeholder="you@example.com">
+						</div>
+					</div>
+					<div class="form-group"><!--message-->
+						<label for="contact-msg" class="col-lg-2 control-label">Message</label>
+						<div class="col-lg-10">
+							<textarea class="form-control" rows="8"></textarea>
+						</div>
+					</div>
+				</div>
+				
+				<div class="modal-footer"><!--FOOTER-->
+					<a class="btn btn-success" data-dismiss="modal">Submit 
+					<a class="btn btn-default" data-dismiss="modal">
+						Close
+					</a>
+				</div>
+			</form>	
+			<!--Modal Form End-->	
+			</div>
+		</div>
+	</div>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
