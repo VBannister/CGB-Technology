@@ -13,8 +13,7 @@ Wireframe your site. There are two sides to this, the basic layout and a mock-up
 Basic layout – Google Slide / Moqups.com
 Detailed mock-up - Photoshop or at least more detail using whatever software you wish.
 The Development 
-####Task 2: Following on from your plans you are to create your proposed website.  The website must have the following properties: (P5)
-..*
+#### Task 2: Following on from your plans you are to create your proposed website.  The website must have the following properties: (P5)
  _1) Meet the client's needs.
  2) Be interactive. 
  3) Be responsive. 
