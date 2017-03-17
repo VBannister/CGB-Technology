@@ -1,0 +1,21 @@
+body {
+	padding-bottom: 80px;
+   
+}
+
+/*about CSS mod*/
+.row{
+    margin-top: 20px;
+}
+
+.panel-body{
+    padding-top: 0;
+}
+.featuredImg {
+    padding-bottom: 15px;}
+
+}
+    
+.panel-header h3 {margin-bottom:20px;}
+font-family: 'Share Tech Mono', monospace;
+font-family: 'Dosis', sans-serif;

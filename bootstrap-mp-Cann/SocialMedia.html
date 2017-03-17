@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bootstrap Project VB</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+	<link href="css/mystyle.css" rel="stylesheet" type="text/css"/>
+      <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet"> 
+</head>
+<body>
+<!--navigation-->
+	<div class="navbar navbar-inverse navbar-static-top">
+		<div class="container">
+			<a href="index.html" class="navbar-brand">Vicki Bannister</a>
+			<!--collapsale menu trigger-->
+			<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<div class="collapse navbar-collapse navHeaderCollapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="services.html">Services</a></li>
+					<!--dropdown-->
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="webdev.html">Web Development</a></li>
+                            <li><a href="apps.html">App Production</a></li>
+                            <li><a href="SocialMedia.html">Social Media</a></li>
+                        </ul>
+                    </li>
+					<li><a href="#contact" data-toggle="modal">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+<!--jumbotron-->
+	
+	<!--Article 1-->
+            <div class="panel-header">
+                <h3 style="font-family: Share Tech Mono">Social Media Setup<small style="font-family: Share Tech Mono">: if it isn't shown here, get in touch.</small></h3>
+            </div>
+			<div class="col-md-4">
+				<div class="thumbnail">
+				  	<img src="assetS/SEO.jpeg" alt="Article One">
+				  	<div class="caption">
+						<h3 style="font-family: Share Tech Mono">S.E.O</h3>
+						<p style="font-family: Dosis">S.E.O is the abbreviation for Search Engine Optimisation, which ensures that your company is at the top website when people search for your business. </p>
+				  	</div>
+				</div>
+			</div>
+		<!--Article 2-->
+			<div class="col-md-4">
+				<div class="thumbnail">
+				  	<img src="assets/Twitter2.jpeg" alt="Article One">
+				  	<div class="caption">
+						<h3 style="font-family: Share Tech Mono">Twitter</h3>
+						<p style="font-family: Dosis">We also can create a professional Twitter page for your business which could act as another way that customers can contact you for queries relating to your business.</p>
+				  	</div>
+				</div>
+			</div>
+		<!--Article 3-->
+			<div class="col-md-4">
+				<div class="thumbnail">
+				  	<img src="assets/facebook.jpg" alt="Article One">
+				  	<div class="caption">
+                        
+						<h3 style="font-family: Share Tech Mono">Facebook</h3>
+						<p style="font-family: Dosis">As well as Twitter pages, we can also create professional Facebook pages, which could also help clients to get into contact with your company. </p>
+				  	</div>
+				</div>
+			</div>
+        
+<!--footer-->
+	<div class="navbar navbar-default navbar-fixed-bottom">
+		<div class="container">
+			<p class="navbar-text">Site Built by Vicki Bannister</p>
+			<a class="navbar-btn btn btn-success pull-right" href="#contact" data-toggle="modal">Contact Us</a>
+		</div>
+	</div>
+	
+<!--modal-->
+	<div class="modal fade" id="contact" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+			<!--Modal Form Start-->
+			<form class="form-horizontal">
+				<div class="modal-header"><!--HEADER-->
+					<h3>Contact Us</h3>
+				</div>
+				
+				<div class="modal-body"><!--BODY-->
+					<div class="form-group"><!--name-->
+						<label for="contact-name" class="col-lg-2 control-label">Name</label>
+						<div class="col-lg-10">
+							<input type="text" class="form-control" id="contact-name" placeholder="Full Name">
+						</div>
+					</div>
+					<div class="form-group"><!--email-->
+						<label for="contact-email" class="col-lg-2 control-label">Email</label>
+						<div class="col-lg-10">
+							<input type="email" class="form-control" id="contact-email" placeholder="you@example.com">
+						</div>
+					</div>
+					<div class="form-group"><!--message-->
+						<label for="contact-msg" class="col-lg-2 control-label">Message</label>
+						<div class="col-lg-10">
+							<textarea class="form-control" rows="8"></textarea>
+						</div>
+					</div>
+				</div>
+				
+				<div class="modal-footer"><!--FOOTER-->
+						<a class="btn btn-success" data-dismiss="modal">Submit</a>
+					<a class="btn btn-default" data-dismiss="modal">Close
+					</a>
+				</div>
+			</form>	
+			<!--Modal Form End-->	
+			</div>
+		</div>
+	</div>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
