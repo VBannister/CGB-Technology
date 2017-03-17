@@ -15,16 +15,16 @@ Detailed mock-up - Photoshop or at least more detail using whatever software you
 The Development 
 Task 2: Following on from your plans you are to create your proposed website.  The website must have the following properties: (P5)
 
-..*Meet the client's needs.
-..*Be interactive. 
-..*Be responsive. 
-..*It must have a minimum of five pages.
-..*It must contain at least one video. 
-..*50% of the images must have been captured by yourself and edited correctly.
-..*Animation to be added. This can be grand or minor aesthetics. 
-..*The website must be on a hosted server. 
-..*Templates are acceptable but 80% of change is needed. The template must also be submitted with the project. 
-..*Adhere to design philosophies. 
+..* Meet the client's needs.
+..* Be interactive. 
+..* Be responsive. 
+..* It must have a minimum of five pages.
+..* It must contain at least one video. 
+..* 50% of the images must have been captured by yourself and edited correctly.
+..* Animation to be added. This can be grand or minor aesthetics. 
+..* The website must be on a hosted server. 
+..* Templates are acceptable but 80% of change is needed. The template must also be submitted with the project. 
+..* Adhere to design philosophies. 
 
 #### Task 3: Conduct your black box and white box test. From this test correct any black box issues and implement two white box suggestions.  You will need to document evidence of each test and implementation. (M3)
 
