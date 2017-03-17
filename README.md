@@ -15,10 +15,10 @@ Detailed mock-up - Photoshop or at least more detail using whatever software you
 The Development 
 ####Task 2: Following on from your plans you are to create your proposed website.  The website must have the following properties: (P5)
 
- _ ..1) Meet the client's needs.
- ..2) Be interactive. 
- ..3) Be responsive. 
- ..4) It must have a minimum of five pages.
+ _1) Meet the client's needs.
+ 2) Be interactive. 
+ 3) Be responsive. 
+ .. 4) It must have a minimum of five pages.
  ..5) It must contain at least one video. 
  ..6) 50% of the images must have been captured by yourself and edited correctly.
  ..7) Animation to be added. This can be grand or minor aesthetics. 
